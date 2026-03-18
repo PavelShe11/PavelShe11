@@ -1,16 +1,34 @@
-## Hi there 👋
+```go
+package main
 
-<!--
-**PavelShe11/PavelShe11** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+// Pavel Sheludyakov — Backend Developer
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+var sheludyakov = map[string]any{
+    "about": map[string]string{
+        "name":     "Pavel Sheludyakov",
+        "role":     "Backend Developer",
+        "status":   "Open to work",
+        "studying": "CS at university (part-time, 3rd year)",
+        "focus":    "Go · Microservices · Distributed Systems",
+    },
+    "bio": "Started programming at 12 with robotics. " +
+        "Worked as Android Developer @ Areal (2y7m) and Tensor. " +
+        "Now transitioning to Go backend. " +
+        "Interested in Highload, SRE, Linux.",
+    "backend": []string{
+        "Go", "gRPC", "REST", "Echo", "JWT", "Microservices", "Clean Architecture", "DDD",
+    },
+    "databases": []string{
+        "PostgreSQL", "SQLite", "Room",
+    },
+    "devops": []string{
+        "Docker", "Git", "Linux",
+    },
+    "mobile_passive": []string{
+        "Kotlin", "Java", "Android", "Coroutines", "Flow", "Retrofit2", "Dagger2",
+    },
+    "links": map[string]string{
+        "telegram": "t.me/PavelSheludyakov",
+    },
+}
+```
