@@ -12,7 +12,6 @@ var sheludyakov = Developer{
         Focus:    "Go · Microservices · Distributed Systems",
     },
     Bio: strings.Join([]string{
-        "Started programming at 12 with robotics.",
         "Worked as Android Developer @ Areal (2y7m) and Tensor.",
         "Now transitioning to Go backend.",
         "Interested in Highload, SRE, Linux, k8s.",
