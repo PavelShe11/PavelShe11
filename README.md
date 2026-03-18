@@ -1,34 +1,30 @@
 ```go
 package main
 
-// Pavel Sheludyakov — Backend Developer
+import "strings"
 
-var sheludyakov = map[string]any{
-    "about": map[string]string{
-        "name":     "Pavel Sheludyakov",
-        "role":     "Backend Developer",
-        "status":   "Open to work",
-        "studying": "CS at university (part-time, 3rd year)",
-        "focus":    "Go · Microservices · Distributed Systems",
+var sheludyakov = Developer{
+    About: About{
+        Name:     "Pavel Sheludyakov",
+        Role:     "Backend Developer",
+        Status:   "Open to work",
+        Studying: "CS at university (part-time, 3rd year)",
+        Focus:    "Go · Microservices · Distributed Systems",
     },
-    "bio": "Started programming at 12 with robotics. " +
-        "Worked as Android Developer @ Areal (2y7m) and Tensor. " +
-        "Now transitioning to Go backend. " +
-        "Interested in Highload, SRE, Linux.",
-    "backend": []string{
-        "Go", "gRPC", "REST", "Echo", "JWT", "Microservices", "Clean Architecture", "DDD",
-    },
-    "databases": []string{
-        "PostgreSQL", "SQLite", "Room",
-    },
-    "devops": []string{
-        "Docker", "Git", "Linux",
-    },
-    "mobile_passive": []string{
-        "Kotlin", "Java", "Android", "Coroutines", "Flow", "Retrofit2", "Dagger2",
-    },
-    "links": map[string]string{
-        "telegram": "t.me/PavelSheludyakov",
+    Bio: strings.Join([]string{
+        "Started programming at 12 with robotics.",
+        "Worked as Android Developer @ Areal (2y7m) and Tensor.",
+        "Now transitioning to Go backend.",
+        "Interested in Highload, SRE, Linux, k8s.",
+    }, " "),
+    Backend:  []string{"Go", "gRPC", "REST", "Echo", "JWT", "Microservices", "Clean Architecture", "DDD"},
+    Database: []string{"PostgreSQL", "SQLite", "Room"},
+    DevOps:   []string{"Docker", "Git", "Linux"},
+    Mobile:   []string{"Kotlin", "Java", "Android", "Coroutines", "Flow", "Retrofit2", "Dagger2"},
+    AITools:  []string{"Claude", "Claude Code", "ChatGPT"},
+    Links: Links{
+        Telegram: "t.me/PavelSheludyakov",
+        GitHub:   "github.com/PavelShe11",
     },
 }
 ```
