@@ -18,9 +18,9 @@ var sheludyakov = Developer{
         "Interested in Highload, SRE, Linux, k8s.",
     }, " "),
     Backend:  []string{"Go", "gRPC", "REST", "Echo", "JWT", "Microservices", "Clean Architecture", "DDD"},
-    Database: []string{"PostgreSQL", "SQLite", "Room"},
+    Database: []string{"PostgreSQL", "SQLite"},
     DevOps:   []string{"Docker", "Git", "Linux"},
-    Mobile:   []string{"Kotlin", "Java", "Android", "Coroutines", "Flow", "Retrofit2", "Dagger2"},
+    Mobile:   []string{"Kotlin", "Java", "Android", "Coroutines", "Flow", "Retrofit2", "Dagger2", "Room"},
     Links: Links{
         Telegram: "t.me/PavelSheludyakov",
     },
