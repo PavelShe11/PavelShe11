@@ -21,10 +21,8 @@ var sheludyakov = Developer{
     Database: []string{"PostgreSQL", "SQLite", "Room"},
     DevOps:   []string{"Docker", "Git", "Linux"},
     Mobile:   []string{"Kotlin", "Java", "Android", "Coroutines", "Flow", "Retrofit2", "Dagger2"},
-    AITools:  []string{"Claude", "Claude Code", "ChatGPT"},
     Links: Links{
         Telegram: "t.me/PavelSheludyakov",
-        GitHub:   "github.com/PavelShe11",
     },
 }
 ```
