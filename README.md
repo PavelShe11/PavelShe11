@@ -21,7 +21,7 @@ var sheludyakov = Developer{
     DevOps:   []string{"Docker", "Git", "Linux"},
     Mobile:   []string{"Kotlin", "Java", "Android", "Coroutines", "Flow", "Retrofit2", "Dagger2", "Room"},
     Links: Links{
-        Telegram: "t.me/PavelSheludyakov",
+        Telegram: "t.me/PavelShe11",
     },
 }
 ```
